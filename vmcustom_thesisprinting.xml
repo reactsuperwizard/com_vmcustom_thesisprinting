@@ -2,26 +2,25 @@
 <extension type="component" method="upgrade" version="3.5">
 	<name>COM_VMCUSTOM_THESISPRINTING</name>
 	<author>eKerner.com - technical developer</author>
-	<creationDate>April 2018</creationDate>
-	<copyright>Copyright (C) 2018 Gold Creative Services</copyright>
-	<license>Copyright (C) 2018 Gold Creative Services</license>
+	<creationDate>April 2019</creationDate>
+	<copyright>Copyright (C) 2019 Creative Momentum</copyright>
+	<license>Copyright (C) 2019 Creative Momentum</license>
 	<authorEmail>ekerner@ekerner.com</authorEmail>
 	<authorUrl>http://www.ekerner.com/</authorUrl>
 	<version>1.0</version>
 	<description><![CDATA[
 	<div>
 		<h2 style="margin-left:40px;">
-			VM Thesis Printing v1.0 by <a href="http://www.ekerner.com/" title="Developer website" onclick="window.open(this.href); return false;">eKerner &middot; technical developer</a> for <a href="http://www.goldcreative.co.za/" title="Gold Creative Services" onclick="window.open(this.href); return false;">Gold Creative Services</a>
+			Thesis Printing v1.0 by <a href="http://www.ekerner.com/" title="Developer website" onclick="window.open(this.href); return false;">eKerner &middot; technical developer</a> 
 		</h2>
-		<p style="margin-left:40px;">Show Virtuemart checkout shipment pricing by shoppers distance from fulfilment centers.</p>
+		<p style="margin-left:40px;">Manages universities and degrees relating to the Thesis Printing package.</p>
 		<div style="margin:0 40px;">
 			<h3>To get started ...</h3>
 			<div style="margin:0 40px;">
-				<a href="index.php?option=com_vmcustom_thesisprinting" title="View Thesis Printing administration">VM Thesis Printing - About</a><br/>
-				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=addinstitute" title="VM Thesis Printing - Add City">VM Thesis Printing - Add City</a><br/>
-				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=shipmentcourses" title="VM Thesis Printing - Shipment Costs">VM Thesis Printing - Shipment Costs</a><br/>
-				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=manual" title="VM Thesis Printing - Manual">VM Thesis Printing - Manual</a><br/>
-				<a href="../plugins/vmcustom/thesisprinting/thesisprinting_manual.php" title="VM Thesis Printing - Plugin Manual">VM Thesis Printing - Plugin Manual</a>
+				<a href="index.php?option=com_vmcustom_thesisprinting" title="View Thesis Printing administration">Thesis Printing - About</a><br/>
+				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=universitylist" title="Thesis Printing - Add University">Thesis Printing - Add University</a><br/>
+				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=degreelist" title="Thesis Printing - Add Degree">Thesis Printing - Add Degree</a><br/>
+				
 			</div>
 		</div>
 		<div style="margin:20px 40px;">Have fun,<br />Eugene Kerner.</div>
@@ -29,12 +28,7 @@
 			<a href="http://www.ekerner.com.au/" title="eKerner &middot; technical developer" onclick="window.open(this.href); return false;">
 				<img src="http://www.ekerner.com.au/images/logos/ekerner_technical_development_logo_nobg.png" alt="eKerner Logo" style="height:100px; width:;" />
 			</a>
-			<a href="http://www.goldcreative.co.za/" title="Gold Creative Services" onclick="window.open(this.href); return false;">
-				<img src="http://www.goldcreative.co.za/images/blackfish.svg" alt="GoldCreative Logo" style="height:100px; width:;" />
-			</a>
-		</div>
-		<div style="margin:0 40px 40px;">
-			&copy; 2018 <a href="http://www.goldcreative.co.za/" title="Gold Creative Services" onclick="window.open(this.href); return false;">Gold Creative Services</a>
+			
 		</div>
 	</div>
 	]]></description>
