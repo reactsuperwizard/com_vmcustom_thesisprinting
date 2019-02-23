@@ -1,0 +1,10 @@
+/*
+ * @title	VM Thesis Printing
+ * @version	1.0
+ * @package	Joomla
+ * @author	ekerner@ekerner.com
+ * @website	http://www.ekerner.com
+ * @license	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ * @copyright	Copyright (C) 2018 Gold Creative Services All rights reserved.
+ * @copyright	applyParcelLimits feature and related code Copyright (C) 2011 - 2018 eKerner.com All rights reserved.
+ */
