@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="3.5">
+	<name>COM_VMCUSTOM_THESISPRINTING</name>
+	<author>eKerner.com - technical developer</author>
+	<creationDate>April 2019</creationDate>
+	<copyright>Copyright (C) 2019 Creative Momentum</copyright>
+	<license>Copyright (C) 2019 Creative Momentum</license>
+	<authorEmail>ekerner@ekerner.com</authorEmail>
+	<authorUrl>http://www.ekerner.com/</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	<div>
+		<h2 style="margin-left:40px;">
+			Thesis Printing v1.0 by <a href="http://www.ekerner.com/" title="Developer website" onclick="window.open(this.href); return false;">eKerner &middot; technical developer</a> 
+		</h2>
+		<p style="margin-left:40px;">Manages universities and degrees relating to the Thesis Printing package.</p>
+		<div style="margin:0 40px;">
+			<h3>To get started ...</h3>
+			<div style="margin:0 40px;">
+				<a href="index.php?option=com_vmcustom_thesisprinting" title="View Thesis Printing administration">Thesis Printing - About</a><br/>
+				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=universitylist" title="Thesis Printing - Add University">Thesis Printing - Add University</a><br/>
+				<a href="index.php?option=com_vmcustom_thesisprinting&amp;view=degreelist" title="Thesis Printing - Add Degree">Thesis Printing - Add Degree</a><br/>
+				
+			</div>
+		</div>
+		<div style="margin:20px 40px;">Have fun,<br />Eugene Kerner.</div>
+		<div style="margin:0 40px 40px;">
+			<a href="http://www.ekerner.com.au/" title="eKerner &middot; technical developer" onclick="window.open(this.href); return false;">
+				<img src="http://www.ekerner.com.au/images/logos/ekerner_technical_development_logo_nobg.png" alt="eKerner Logo" style="height:100px; width:;" />
+			</a>
+			
+		</div>
+	</div>
+	]]></description>
+
+	
+
+	<installfile>install.vmcustom_thesisprinting.php</installfile>
+	<scriptfile>script.vmcustom_thesisprinting.php</scriptfile>
+	
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/vmcustom_thesisprinting_install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates</schemapath>
+		</schemas>
+	</update>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">sql/vmcustom_thesisprinting_uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<administration>
+		<languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_vmcustom_thesisprinting.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_vmcustom_thesisprinting.ini</language>
+		</languages>
+
+		<menu link="option=com_vmcustom_thesisprinting">COM_VMCUSTOM_THESISPRINTING</menu>
+		<submenu>
+			<menu link="option=com_vmcustom_thesisprinting">COM_VMCUSTOM_THESISPRINTING_ABOUT_TITLE</menu>
+			<menu link="option=com_vmcustom_thesisprinting&amp;view=universitylist">COM_VMCUSTOM_THESISPRINTING_UNIVERSITY</menu>
+			<menu link="option=com_vmcustom_thesisprinting&amp;view=degreelist">COM_VMCUSTOM_THESISPRINTING_DEGREE</menu>
+			
+		</submenu>
+
+	
+		<files folder="admin">
+			
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>LICENSE.txt</filename>
+			<filename>vmcustom_thesisprinting.php</filename>
+			<filename>vmcustom_thesisprinting_manual.php</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>tables</folder>
+			<folder>include</folder>
+			<folder>lib</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>views</folder>
+		</files>
+
+	</administration>
+
+	<config/>
+</extension>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="component"
+		label="COM_VMCUSTOM_THESISPRINTING_CONFIG_GENERAL_LABEL"
+		description="COM_VMCUSTOM_THESISPRINTING_CONFIG_GENERAL_DESC">
+		<field  type="note"
+			label="Note"
+			description="Contact ekerner@ekerner.com with any required additions." />
+	</fieldset>
+</config>
